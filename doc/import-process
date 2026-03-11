@@ -1,0 +1,20 @@
+# Import Process
+
+Step 1 – Upload Source File
+
+A CSV file containing employee information is uploaded into ServiceNow.
+
+Step 2 – Import Set Creation
+
+The uploaded file populates the Import Set table.
+
+Table name:
+u_employee_import
+
+Step 3 – Data Staging
+
+Data remains in the staging table until a Transform Map processes it.
+
+Step 4 – Transform Execution
+
+The Transform Map converts source data into structured employee records.
