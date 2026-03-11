@@ -1,0 +1,21 @@
+# Transform Logic
+
+Transform Maps control how data moves from Import Set tables to target tables.
+
+Source Table:
+u_employee_import
+
+Target Table:
+u_employee_directory
+
+Field Mapping:
+
+employee_id → u_employee_id
+name → u_name
+email → u_email
+department → u_department
+title → u_title
+manager → u_manager
+status → u_status
+
+Transform scripts also normalize data values and validate fields.
